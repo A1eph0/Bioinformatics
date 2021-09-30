@@ -1,0 +1,54 @@
+########################################
+# Program: needle
+# Rundate: Thu 30 Sep 2021 11:12:55
+# Commandline: needle
+#    -auto
+#    -stdout
+#    -asequence emboss_needle-I20210930-112122-0709-33844378-p1m.asequence
+#    -bsequence emboss_needle-I20210930-112122-0709-33844378-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 5.0
+#    -gapextend 5.0
+#    -endweight
+#    -endopen 5.0
+#    -endextend 5.0
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: EMBOSS_001
+# Matrix: EBLOSUM62
+# Gap_penalty: 5.0
+# Extend_penalty: 5.0
+#
+# Length: 112
+# Identity:      64/112 (57.1%)
+# Similarity:    77/112 (68.8%)
+# Gaps:           5/112 ( 4.5%)
+# Score: 308.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 MAPWMHLLTVLALLALWGPNSVQAYSSQHLCGSNLVEALYMTCGRSG-FY     49
+                     ||.|..||.:||||||..|...:|:::||||||:||||||:.||..| ||
+EMBOSS_001         1 MALWTRLLALLALLALGAPTPARAFANQHLCGSHLVEALYLVCGERGFFY     50
+
+EMBOSS_001        50 RPHDRRELEDLQVEQAEL--GLEAGGLQPSALEMILQKRGIVDQCCNNIC     97
+                     .|..|||:||.||...||  |..||||||...|...||||||:|||.::|
+EMBOSS_001        51 TPKARREVEDTQVGGVELGGGPGAGGLQPLGPEGRPQKRGIVEQCCASVC    100
+
+EMBOSS_001        98 TFNQLQNYCNVP    109
+                     :..||:||||  
+EMBOSS_001       101 SLYQLENYCN--    110
+
+
+#---------------------------------------
+#---------------------------------------

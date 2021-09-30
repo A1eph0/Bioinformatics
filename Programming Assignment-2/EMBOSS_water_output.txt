@@ -1,0 +1,51 @@
+########################################
+# Program: water
+# Rundate: Thu 30 Sep 2021 11:02:36
+# Commandline: water
+#    -auto
+#    -stdout
+#    -asequence emboss_water-I20210930-110232-0999-44288907-p1m.asequence
+#    -bsequence emboss_water-I20210930-110232-0999-44288907-p1m.bsequence
+#    -datafile EBLOSUM62
+#    -gapopen 5.0
+#    -gapextend 5.0
+#    -aformat3 pair
+#    -sprotein1
+#    -sprotein2
+# Align_format: pair
+# Report_file: stdout
+########################################
+
+#=======================================
+#
+# Aligned_sequences: 2
+# 1: EMBOSS_001
+# 2: EMBOSS_001
+# Matrix: EBLOSUM62
+# Gap_penalty: 5.0
+# Extend_penalty: 5.0
+#
+# Length: 110
+# Identity:      64/110 (58.2%)
+# Similarity:    77/110 (70.0%)
+# Gaps:           3/110 ( 2.7%)
+# Score: 318.0
+# 
+#
+#=======================================
+
+EMBOSS_001         1 MAPWMHLLTVLALLALWGPNSVQAYSSQHLCGSNLVEALYMTCGRSG-FY     49
+                     ||.|..||.:||||||..|...:|:::||||||:||||||:.||..| ||
+EMBOSS_001         1 MALWTRLLALLALLALGAPTPARAFANQHLCGSHLVEALYLVCGERGFFY     50
+
+EMBOSS_001        50 RPHDRRELEDLQVEQAEL--GLEAGGLQPSALEMILQKRGIVDQCCNNIC     97
+                     .|..|||:||.||...||  |..||||||...|...||||||:|||.::|
+EMBOSS_001        51 TPKARREVEDTQVGGVELGGGPGAGGLQPLGPEGRPQKRGIVEQCCASVC    100
+
+EMBOSS_001        98 TFNQLQNYCN    107
+                     :..||:||||
+EMBOSS_001       101 SLYQLENYCN    110
+
+
+#---------------------------------------
+#---------------------------------------

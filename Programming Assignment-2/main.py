@@ -118,7 +118,7 @@ if __name__ == "__main__":
         with open(seq2_path, 'r') as file:
             seq2 = file.read().replace('\n', '')
 
-        scoring_matrix = params.BLAST_GAPPED_SCORING
+        scoring_matrix = params.DNAFull
         if seq_type == "1":
             scoring_matrix = params.BLOSUM62
 

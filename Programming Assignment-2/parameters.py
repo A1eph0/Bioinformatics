@@ -1,10 +1,10 @@
-# BLAST GAPPED SCORING MATRIX FOR NUCLEOTIDES
-BLAST_GAPPED_SCORING = {
-                            'A': {'A':  1, 'C': -3, 'G': -3, 'T': -3}, 
-                            'C': {'A': -1, 'C':  1, 'G': -3, 'T': -3}, 
-                            'G': {'A': -3, 'C': -3, 'G':  1, 'T': -1},
-                            'T': {'A': -3, 'C': -3, 'G': -3, 'T':  1}
-                        }
+# BLAST ungapped scoring matrix for Nucleotides(DNAFull/ENDful)
+DNAFull =   {
+                'A': {'A':  5, 'C': -1, 'G': -1, 'T': -1}, 
+                'C': {'A': -1, 'C':  5, 'G': -1, 'T': -1}, 
+                'G': {'A': -1, 'C': -1, 'G':  5, 'T': -1},
+                'T': {'A': -1, 'C': -1, 'G': -1, 'T':  5}
+            }
 
 # BLOSUM62 Matrix (Default in BLAST)
 BLOSUM62 = {

@@ -1,0 +1,8 @@
+Jukes-Cantor distance
+1.6479184330021643
+
+Kimura2 distance
+1.649931178998057
+
+Kimura3 distance
+1.6502091112112294
